@@ -1,3 +1,9 @@
 function truncate(str, maxlength) {
-  // ваш код...
+  if (str.length >= maxlength) {
+  let string = str.substr(0, maxlength - 1) + "…";
+  return string;
+  } else {
+    return str;
+  }
 }
+
