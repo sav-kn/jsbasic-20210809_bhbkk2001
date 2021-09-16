@@ -7,7 +7,7 @@ describe('3-module-2-task', () => {
 
   it('должна фильтровать диапазон', () => {
     let actualFiltered = filterRange(arr, 1, 4);
-    let expectedFiltered = [3, 1];
+    let expectedFiltered = [1];
 
     expect(actualFiltered).toEqual(expectedFiltered);
   });
