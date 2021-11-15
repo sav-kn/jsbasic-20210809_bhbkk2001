@@ -34,16 +34,18 @@ function initCarousel() {
       function showRight(){
         
         sumShow = sumShow - 988;
-        lenta.style.transform = `translateX(${sumShow}px)`;
         revece();
+        lenta.style.transform = `translateX(${sumShow}px)`;
+       // revece();
         console.log(sumShow)
         return sumShow;
       }
 // ф-ция крутит ленту в лево
       function showLeft(){
         sumShow  = sumShow + 988;
-        lenta.style.transform = `translateX(${sumShow}px)`;
         revece();
+        lenta.style.transform = `translateX(${sumShow}px)`;
+       // revece();
         console.log(sumShow)
         return sumShow;
       }

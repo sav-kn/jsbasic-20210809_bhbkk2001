@@ -2,6 +2,7 @@ import createElement from '../../assets/lib/create-element.js';
 
 
 export default class Carousel {
+
   constructor(slides) {
     this.slides = slides;
 
@@ -38,7 +39,7 @@ export default class Carousel {
           </button>
         </div>
       </div>`));
-
+console.log(slides)
     this.sub('inner').append(...slides);
 
     this.update();
