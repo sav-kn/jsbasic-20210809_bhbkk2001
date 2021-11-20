@@ -35,11 +35,11 @@ export default class StepSlider {
 
     this.sub('value').innerHTML = value;
 
-    if (this.sub('step-active')) {
-      this.sub('step-active').classList.remove('slider__step-active');
-    }
+   // if (this.sub('step-active')) {
+    //  this.sub('step-active').classList.remove('slider__step-active');
+  //  }
 
-    this.sub('steps').children[this.value].classList.add('slider__step-active');
+   // this.sub('steps').children[this.value].classList.add('slider__step-active');
   }
 
   sub(ref){
